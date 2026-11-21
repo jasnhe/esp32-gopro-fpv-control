@@ -14,7 +14,12 @@ The firmware is [RECon32](https://recon32.es/), free community software by its o
 
 ## Demo
 
-[Short clip of the transmitter switch triggering the camera](images/trigger-demo-with-audio.mp4)
+Short clip of the transmitter switch triggering the camera:
+
+
+
+https://github.com/user-attachments/assets/46489cfd-ae75-407c-b35e-6205b9752798
+
 
 ## Result
 
