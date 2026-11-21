@@ -1,13 +1,24 @@
 # ESP32 GoPro control for an FPV drone
 
-An ESP32 integrated with the flight controller of my custom FPV drone, so I can control a GoPro from the radio transmitter and see the camera's status live in the goggles.
+Setup notes for adding GoPro recording control and live camera status to my custom FPV drone, using an ESP32 running the RECon32 firmware.
+
+## Credit
+
+The firmware is [RECon32](https://recon32.es/), free community software by its own developer. I did not write it, and its firmware files are not in this repo. This repo documents how I integrated it with my drone.
 
 ## What it does
 
-- Connects the ESP32 to the flight controller over UART using the MSP protocol (Betaflight)
-- Lets me start and stop GoPro recording from the transmitter
-- Shows live camera status in the goggles
+- The ESP32 connects to a UART on the flight controller and talks to Betaflight over MSP
+- A switch on my radio transmitter starts and stops GoPro recording
+- Camera status shows up in the OSD in my goggles
+
+## What I did
+
+- Flashed the ESP32 with RECon32 using its web installer
+- Wired the ESP32 to a free UART on the flight controller
+- Set up a radio channel and the Betaflight OSD so a transmitter switch controls recording and status appears in the goggles
+- Paired the ESP32 with the GoPro
 
 ## Status
 
-Code, wiring diagram and demo footage to be added.
+Wiring photo and more setup details to be added.
