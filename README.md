@@ -12,6 +12,10 @@ The firmware is [RECon32](https://recon32.es/), free community software by its o
 - A switch on my radio transmitter starts and stops GoPro recording
 - Camera status shows up in the OSD in my goggles
 
+## Demo
+
+[Short clip of the transmitter switch triggering the camera](images/trigger-demo-with-audio.mp4)
+
 ## Result
 
 Camera status in the goggles OSD: CAM READY and the camera mode.
