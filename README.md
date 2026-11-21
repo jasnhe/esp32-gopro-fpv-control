@@ -38,6 +38,15 @@ The same status line with the camera battery level.
 - Set up a radio channel and the Betaflight OSD so a transmitter switch controls recording and status appears in the goggles
 - Paired the ESP32 with the GoPro
 
-## Status
+## Wiring
 
-Wiring details to be added.
+I followed the RECon32 wiring guide for the ESP32-C3 SuperMini:
+
+| Flight controller | ESP32-C3 SuperMini |
+|---|---|
+| 5V | 5V |
+| GND | GND |
+| UART TX | GPIO6 (RX) |
+| UART RX | GPIO7 (TX) |
+
+TX and RX are crossed, and the 5V goes only to the 5V pin, never to a GPIO. In Betaflight Configurator, MSP is enabled on the UART the ESP32 is connected to, at 115200 baud, as the guide says.
